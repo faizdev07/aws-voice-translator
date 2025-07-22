@@ -44,16 +44,40 @@ This application uses a serverless architecture with the following AWS services:
 ## 📸 Screenshots
 
 ### 📱 Application UI
+
+#### 🏠 Main Interface
 ![Home Screen](screenshots/home-screen.png)
+*Main application interface with language selectors and record button*
+
+#### 🌐 Language Selection
 ![Languages Dropdown](screenshots/languages-dropdown.png)
+*Dropdown showing all 16 supported languages for translation*
+
+#### 🎙️ Voice Recording
 ![Recording in Progress](screenshots/recording-in-progress.png)
+*Active recording session with timer and stop button*
+
+#### 🔄 Translation Results
 ![Translation Results](screenshots/translation-results.png)
+*Completed translation showing original text, translated text, and audio player*
 
 ### ☁️ AWS Configuration
+
+#### 📦 S3 Website Hosting
 ![S3 Website Config](screenshots/s3-website-config.png)
+*S3 bucket configuration for static website hosting*
+
+#### ⚡ Lambda Function
 ![Lambda Function](screenshots/lambda-function.png)
+*Lambda function code handling audio processing and AI service orchestration*
+
+#### 🔌 API Gateway
 ![API Gateway](screenshots/api-gateway.png)
+*API Gateway endpoints for handling audio uploads and status checks*
+
+#### 🌐 CloudFront Distribution
 ![CloudFront Distribution](screenshots/cloudfront-distribution.png)
+*CloudFront CDN configuration for global content delivery*
 
 ## 🛠️ Setup and Deployment
 
